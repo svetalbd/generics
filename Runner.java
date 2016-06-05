@@ -28,7 +28,7 @@ public class Runner {
         testExecutor.addTask(new IntTask(17), intValidator);
         testExecutor.addTask(new IntTask(16), intValidator);
 
-        //testExecutor.execute();
+        testExecutor.execute();
 
         System.out.println("Valid results:");
         for (Object o : testExecutor.getValidResults()) {
